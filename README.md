@@ -1,4 +1,4 @@
-[allen Blog](https://huangxuan.me)
+[allen Blog](https://tech-tomato.github.io)
 ================================
 
 > I never expected this to become popular.
