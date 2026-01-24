@@ -1,4 +1,4 @@
-[Hux Blog](https://huangxuan.me)
+[allen Blog](https://huangxuan.me)
 ================================
 
 > I never expected this to become popular.
