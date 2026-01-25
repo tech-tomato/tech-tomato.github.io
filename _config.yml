@@ -1,6 +1,6 @@
 # Site settings
 title: 知行归一
-SEOTitle: 老张的博客 | allen Blog
+SEOTitle: allen的博客 | allen Blog
 header-img: img/home-bg.jpg
 email: zr5460163@gmail.com
 description: "养生是行，知识是知，黑科技是工具。 | 要做一个Good luck 的poeple"
@@ -91,12 +91,12 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    { title: "xxxxx", href: "xxxx" },
+    { title: "", href: "" },
+    { title: "", href: "" },
+    { title: "", href: "" },
+    { title: "", href: "" },
+    { title: "", href: "" },
+    { title: "", href: "" },
+    { title: "", href: "" },
   ]
