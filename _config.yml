@@ -1,11 +1,11 @@
 # Site settings
-title: 知行归一
+title: 御物游心
 SEOTitle: allen的博客 | allen Blog
 header-img: img/home-bg.jpg
 email: zr5460163@gmail.com
 description: "养生是行，知识是知，黑科技是工具。 | 要做一个Good luck 的poeple"
 keyword: " 个人网站, 互联网,前沿工具"
-url: " " # your host, for absolute URL
+url: "https://tech-tomato.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
