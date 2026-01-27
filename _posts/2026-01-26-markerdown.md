@@ -4,7 +4,7 @@ title:      "markdown"
 subtitle:   ""
 date:       2026-01-26
 author:     "allen"
-header-img: "图片"
+header-img: "img/bg/bg-blue2.jpg"
 tags:
     - markdown
     
