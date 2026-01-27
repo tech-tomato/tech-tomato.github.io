@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "办公工具"
+subtitle:   " "
+date:       2026-01-27
+author:     "allen"
+header-img: "图片"
+tags:
+    - 工作必须
+---
+
+## 免费在线PDF
+- [I♡PDF](https://www.ilovepdf.com/)
+- [PDF2GO](https://www.pdf2go.com/zh)
+* [CADZXW](https://www.cadzxw.com/download.html)/有些文件需要注册会员
+
