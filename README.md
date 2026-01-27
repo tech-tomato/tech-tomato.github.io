@@ -1,4 +1,4 @@
-*[半山听雨]*(https://tech-tomato.github.io)
+[半山听雨](https://tech-tomato.github.io)
 ================================
 
 > I never expected this to become popular.
