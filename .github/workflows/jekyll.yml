@@ -34,6 +34,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
+        # Use the moving v1 tag so the action keeps receiving runner-image
+        # compatibility fixes (e.g. ubuntu-26.04 support added in v1.337/v1.339).
+        # https://github.com/ruby/setup-ruby/releases
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
