@@ -105,10 +105,35 @@
         <div class="site-heading">
         {% endif %}
           <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-          <span class="subheading">{{ page.description }}</span>
+          <span class="subheading" id="daily-quote">{{ page.description }}</span>
         </div>
       </div>
     </div>
   </div>
 </header>
+<script>
+  (function () {
+    var el = document.getElementById('daily-quote');
+    if (!el) return;
+    // 仅首页（含 /page/N/ 分页页）启用每日语录，其他页面保持各自的固定描述
+    var path = window.location.pathname;
+    if (!(/^\/$/.test(path) || /^\/page\/\d+\/$/.test(path) || /\/index\.html$/.test(path))) return;
+    // 每日随机语录池：想增删语录，直接在这里加/删一行即可
+    var quotes = [
+      '你所看到的风景，记忆中的东西，对事物的理解，都取决于你站在何处。',
+      '浮生暂寄梦中梦，世事如闻风里风。',
+      '养生是行，知识是知，黑科技是工具。',
+      '纸上得来终觉浅，绝知此事要躬行。',
+      '没有语言，意识是不可能进行思维的。意识遇到语言以后才开始清晰的思维。',
+      '刷手机不是大脑的休息，而是对大脑的反复强刺激。',
+      '将目标具体化，培养微习惯，不要把意志力反复消耗在今天要不要做的问题上。',
+      '行是知之始，知是行之成。'
+    ];
+    var now = new Date();
+    // 当天在当年中的第几天（1~366），叠加年份保证跨年不重复
+    var day = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 864e5);
+    var idx = (day + now.getFullYear()) % quotes.length;
+    el.textContent = '「' + quotes[idx] + '」';
+  })();
+</script>
 {% endif %}
